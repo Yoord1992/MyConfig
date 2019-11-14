@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="move-osd-windows">
+	<schema id="org.gnome.shell.extensions.move-osd-windows" path="/org/gnome/shell/extensions/move-osd-windows/">
+    <key type="i" name="horizontal">
+      <default>0</default>
+      <summary>Horizontal shifting (%)</summary>
+      <description>The percentage of the screen width (from the center of the screen) at which the OSD will be displayed.</description>
+    </key>
+    <key type="i" name="vertical">
+      <default>25</default>
+      <summary>Vertical shifting (%)</summary>
+      <description>The percentage of the screen height (from the center of the screen) at which the OSD will be displayed.</description>
+    </key>
+    <key type="b" name="hide">
+      <default>true</default>
+      <summary></summary>
+      <description></description>
+    </key>
+	</schema>
+</schemalist>

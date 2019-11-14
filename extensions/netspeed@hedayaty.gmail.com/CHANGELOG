@@ -1,0 +1,85 @@
+* Wed 06 Jun 2018 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.28
+- Move to gitlab
+
+* Sun 04 Feb 2018 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.26
+- Clean up po files
+- Dutch translation
+- Utilize libnm
+- Fix vertical align
+- Version 28
+
+* Wed 19 Jul 2017 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.24
+- Merge serveral pull requests, apply some feedback
+
+* Mon 10 Aug 2015 Amir Hedayaty <hedayaty AT gmail DOM COM>- 3.16
+- Convert all tab stops to 4
+- Add follow gateway option
+
+* Sun 25 May 2014 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.12.21
+- Upgrade to 3.12
+- Add localiztion thanks for initiating patch from Jonatan Zeidler jonatan_zeidler AT gmx DOT de
+- add Makefile for automation
+
+* Sat Oct 12 2013 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.8.18, 3.10.19
+- Due to changes in LayoutMenuItem I will release a final version for gnome-shell <= 3.8 and keep on with 3.10
+
+* Fri Oct 4 2013 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.10.17
+- Adopt new classes
+- PopupMenu.PopupBaseMenuItem: addActor ==> actor.add
+- Works on gnome 3.10
+
+* Thu Oct 3 2013 Amir Hedayaty <hedayaty AT gmail DOT COM>- 3.8.16
+- Redo the zip
+
+* Tus Oct 1 2013 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.8.15
+- Bug fixes
+
+* Thu Aug 15 2013 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.8.14
+- add gnome 3.8 compatibility
+- import pull request from zpydr(minor improvement in pref.js)
+
+* Sun Nov 11 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.6.13
+- add gnome 3.6 compatibility (hopefully does not break gnome <= 3.4)
+- (Major) added preferences
+- works great with gnome-shell-extension-prefs
+- changes icon by device type
+- settings are stored
+- added preferences Icon
+
+
+* Wed May 16 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.12
+- Remove the log message used for debug
+- Set default not to show the icon
+
+* Tue May 1 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.11
+- Defaulted to show up/down seperately
+- Making seperate labels for units and making them look smaller thanks for hrml from "simonbcn"
+
+* Wed Mar 28 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.10
+- Added 3.3.90 and 3.40 compatibility
+
+* Thu Jan 19 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.9
+- Adding the ability to choose the device (not complete)
+
+* Thu Jan 12 2012 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.8
+- Middle click toggles between showing input+output and showing them at the same time
+
+* Fri Dec 30 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.7
+- More code clean up
+- Add ability to detect type of device from NetworkManager and type of icon
+
+* Wed Dec 28 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.3
+- Make size of the label fixed to avoid annoying resize
+
+* Thu Dec 22 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.2
+- more code clean up, cleaning the timer loop
+- add another class for applet
+
+* Thu Sun 17 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.1
+- code clean up and make enable/disable functions effective
+
+* Sun Oct 23 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.2.0
+- Port to gnome 3.2
+
+* Thu June 2 2011 Amir Hedayaty <hedayaty AT gmail DOT com>- 3.0.0
+- Initial code

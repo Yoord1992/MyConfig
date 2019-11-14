@@ -1,0 +1,22 @@
+/*
+ * Transparency
+ */
+.dynamic-top-bar-white-btn .panel-button {
+	color: #fff;
+}
+
+.dynamic-top-bar-hide-activity-btn #panelActivities {
+	color: rgba(0,0,0,0);
+}
+
+.dynamic-top-bar-btn-shadow .panel-button {
+	text-shadow: #000 0px 3px 5px;
+}
+
+.dynamic-top-bar-btn-shadow .system-status-icon {
+	icon-shadow: black 0px 3px 5px;
+}
+
+.dynamic-top-bar-btn-shadow .popup-menu-arrow {
+	icon-shadow: rgba(0,0,0,0.5) 0px 3px 5px;
+}

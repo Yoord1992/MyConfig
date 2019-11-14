@@ -1,0 +1,82 @@
+.pcalendar-font {
+    font-family: Vazir, sans-serif;
+}
+.pcalendar-holiday, .pcalendar-day-with-events {
+    text-decoration: underline;
+}
+
+.pcalendar-top-button {
+    opacity: .5; /* for future compatibility! */
+}
+
+.calendar-nonwork-day {
+    font-weight: bold;
+}
+
+.pcalendar-month-label {
+    font-size: .9em;
+}
+
+.pcalendar-day {
+    font-size: 1em;
+    width: 2em;
+    height: 1.85em;
+}
+
+.pcalendar-date-label {
+    padding: .4em 0;
+    font-size: .8em;
+}
+
+.pcalendar-event-label {
+    text-align: right;
+    padding: 0;
+    width: 150px; /* this should be useless, but when we have events, it fixes HEIGHT! */
+}
+
+.pcalendar-date-label:hover {
+    background-color: rgba(128, 128, 128, .1);
+}
+
+.pcalendar-preferences-button {
+    padding: 2px;
+}
+
+.pcalendar-preferences-button:hover {
+    background-color: rgba(128, 128, 128, .1);
+}
+
+.pcalendar-rtl {
+    direction: rtl;
+}
+
+.pcalendar-button {
+    border-radius: 0 0 0 0;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: .9em;
+}
+
+.pcalendar-button.active {
+    background-color: #bbb;
+    color: #333;
+}
+
+.pcalendar-button.fromPersian {
+    border-radius: 0 3px 3px 0;
+    border-left: none;
+}
+
+.pcalendar-button.fromHijri {
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+}
+
+.pcalendar-converter-box {
+    padding: 5px 0;
+}
+
+.pcalendar-converter-entry {
+    margin-left: 5px;
+    margin-right: 5px;
+}

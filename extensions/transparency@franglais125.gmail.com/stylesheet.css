@@ -1,0 +1,17 @@
+#panel.transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* transition from solid to transparent */
+  transition-duration: 500ms;
+  }
+  #panel.transparent .panel-corner {
+    -panel-corner-background-color: rgba(0, 0, 0, 0.2);
+  }
+
+#panel.solid {
+  background-color: black;
+  /* transition from transparent to solid */
+  transition-duration: 200ms;
+  }
+  #panel.solid .panel-corner {
+    -panel-corner-background-color: black;
+  }
