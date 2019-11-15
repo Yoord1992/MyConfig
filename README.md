@@ -27,6 +27,5 @@ Auto Install Apps, Configs, ... On Your Debian Base Distro.
     <p>
 &nbsp;
 &nbsp;
-<p>
 <b>Telegram :</b> Yoord
 <p>
