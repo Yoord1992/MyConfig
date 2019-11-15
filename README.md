@@ -3,7 +3,7 @@
 <center/>
 
 # YoordConfig V1
-Easy Install Config
+Easy Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
 
