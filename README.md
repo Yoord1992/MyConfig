@@ -50,15 +50,16 @@ Auto Install Apps, Configs, ... On Your Distro.
   gnome-tweak-tool    -
   geany   -
   geary  -
-  Telegram  -
+  Telegram  
     &nbsp;
  <b> Config: </b>
-  mpv  <p>
-  Telegram  <p>
-  tor  <p>
-  icon  <p>
-  gnome extensions  <p>
-
+        <p>
+  mpv -
+  Telegram   -
+  tor   -
+  icon   -
+  gnome extensions  
+<p>
 <b>How To Install YoordConfig</b>
 
 1 - git clone https://github.com/Yoord1992/YoordConfig
