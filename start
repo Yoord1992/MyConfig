@@ -7,6 +7,7 @@ sleep 3
 
 clear
 sudo apt autoremove  &>/dev/null
+sudo apt upgrade  &>/dev/null
 clear
 echo -e "Installing Apps ..."
 sudo add-apt-repository ppa:clipgrab-team/ppa -y   &>/dev/null
