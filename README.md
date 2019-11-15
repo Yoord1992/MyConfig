@@ -7,7 +7,6 @@ Auto Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
  <b> Apps: </b>
-   
   gnome-paint
   peek   -
   clipgrab   -
@@ -60,6 +59,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   icon   -
   gnome extensions  
 <p>
+  
 <b>How To Install YoordConfig</b>
 
 1 - git clone https://github.com/Yoord1992/YoordConfig
