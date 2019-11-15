@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo " *******      Yoord Config V1      *******"
+echo " *******      MyConfig V1      *******"
 
 sleep 3
 
