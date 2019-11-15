@@ -3,7 +3,7 @@
 <center/>
 
 # YoordConfig V1
-Easy Install Apps, Configs, ... On Your Distro.
+Auto Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
 
