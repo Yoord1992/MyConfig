@@ -9,12 +9,12 @@ Auto Install Apps, Configs, ... On Your Distro.
  <b> Apps: </b>
     <p>
   gnome-paint 
-  <p>
-  peek   <p>
-  clipgrab   <p>
+  -
+  peek   -
+  clipgrab   -
   winff  <p>
-  libavcodec-extra  <p>
-  xarchiver  <p>
+  libavcodec-extra -
+  xarchiver -
   boot-repair  <p>
   openshot-qt  <p>
   blender   <p>
