@@ -93,7 +93,6 @@ sudo cp -r * ~/.local/share/gnome-shell/extensions  &>/dev/null
 cd ..
 clear
 
-
 echo -e " Copying Music, Picture and Video ..."
 sleep 3
 cd personal
