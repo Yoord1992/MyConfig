@@ -5,6 +5,7 @@
 # YoordConfig V1
 Auto Install Apps, Configs, ... On Your Distro.
 <p>
+  <p>
   &nbsp;
  <b> Apps: </b>
   gnome-paint
@@ -22,7 +23,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   persepolis   -
   tor    -
   gimp   -
-  steam    -  
+  steam    -
   chromium-browser   -
   resolvconf    -
   playonlinux   -
@@ -43,7 +44,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   screenfetch   -
   xarchiver   -
   winff   -
-  libavcodec-extra    -
+  libavcodec-extra  -
   unzip    -
   gnome-tweak-tool    -
   geany   -
