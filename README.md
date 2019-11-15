@@ -8,8 +8,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   &nbsp;
  <b> Apps: </b>
    
-  gnome-paint 
-  -
+  gnome-paint
   peek   -
   clipgrab   -
   winff   -
