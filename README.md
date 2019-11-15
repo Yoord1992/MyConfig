@@ -6,7 +6,7 @@
 Auto Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
- <b> Apps: <b>
+ <b> Apps: </b>
   gnome-paint 
   peek 
   clipgrab 
