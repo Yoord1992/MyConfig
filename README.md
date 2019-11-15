@@ -17,9 +17,9 @@ Auto Install Apps, Configs, ... On Your Debian Base Distro.
 <p>
 2 - cd YoordConfig
 <p>
-3 - chmod +x ./start
+3 - chmod +x ./start.sh
 <p>
-4 - ./start
+4 - ./start.sh
 &nbsp;
   <p>
     <p>
