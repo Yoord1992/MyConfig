@@ -5,62 +5,7 @@
 # YoordConfig V1
 Auto Install Apps, Configs, ... On Your Distro.
 <p>
-  <p>
-  &nbsp;
- <b> Apps: </b>
-  gnome-paint
-  peek   -
-  clipgrab   -
-  winff   -
-  libavcodec-extra -
-  xarchiver -
-  boot-repair   -
-  openshot-qt  -
-  blender   -
-  goldendict   -
-  goldendict-wordnet    -
-  gparted    -
-  persepolis   -
-  tor    -
-  gimp   -
-  steam    -
-  chromium-browser   -
-  resolvconf    -
-  playonlinux   -
-  privoxy -
-  openshot-qt   -
-  mpv    -
-  clamav    -
-  clamtk    -
-  persepolis    -
-  brasero   -
-  handbrake   -
-  kazam   -
-  kolourpaint4   -
-  fslint    -
-  xarchiver    -
-  xournal    -
-  thunar    -
-  screenfetch   -
-  xarchiver   -
-  winff   -
-  libavcodec-extra  -
-  unzip    -
-  gnome-tweak-tool    -
-  geany   -
-  geary  -
-  Telegram  
-    &nbsp;
-     <p>
- <b> Config: </b>
-       
-  mpv -
-  Telegram   -
-  tor   -
-  icon   -
-  gnome extensions  
-<p>
- <p>  
+ 
 <b>How To Install YoordConfig</b>
 
 1 - git clone https://github.com/Yoord1992/YoordConfig
