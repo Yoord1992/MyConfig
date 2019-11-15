@@ -7,7 +7,7 @@ Auto Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
  <b> Apps: </b>
-    <p>
+   
   gnome-paint 
   -
   peek   -
@@ -52,8 +52,9 @@ Auto Install Apps, Configs, ... On Your Distro.
   geary  -
   Telegram  
     &nbsp;
+     <p>
  <b> Config: </b>
-        <p>
+       
   mpv -
   Telegram   -
   tor   -
