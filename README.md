@@ -8,6 +8,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   &nbsp;
  <b> Apps: </b>
   gnome-paint 
+  <p>
   peek 
   clipgrab 
   winff
@@ -50,7 +51,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   geary
   Telegram
     &nbsp;
- <b> Config: <b>
+ <b> Config: </b>
   mpv
   Telegram
   tor
