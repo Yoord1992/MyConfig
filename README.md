@@ -1,7 +1,3 @@
-<center>
-<img src="http://s7.picofile.com/file/8378261250/2.png">
-</center>
-
 # YoordConfig V1
 Easy Install Config
 <p>
