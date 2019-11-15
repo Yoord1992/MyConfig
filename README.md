@@ -7,56 +7,57 @@ Auto Install Apps, Configs, ... On Your Distro.
 <p>
   &nbsp;
  <b> Apps: </b>
+    <p>
   gnome-paint 
   <p>
-  peek 
-  clipgrab 
-  winff
-  libavcodec-extra
-  xarchiver
-  boot-repair
-  openshot-qt
-  blender 
-  goldendict 
-  goldendict-wordnet 
-  gparted 
-  persepolis 
-  tor 
-  gimp 
-  steam 
-  chromium-browser 
-  resolvconf 
-  playonlinux 
-  privoxy 
-  openshot-qt 
-  mpv  
-  clamav 
-  clamtk 
-  persepolis 
-  brasero 
-  handbrake 
-  kazam 
-  kolourpaint4 
-  fslint 
-  xarchiver 
-  xournal 
-  thunar 
-  screenfetch 
-  xarchiver 
-  winff 
-  libavcodec-extra 
-  unzip 
-  gnome-tweak-tool 
-  geany 
-  geary
-  Telegram
+  peek   <p>
+  clipgrab   <p>
+  winff  <p>
+  libavcodec-extra  <p>
+  xarchiver  <p>
+  boot-repair  <p>
+  openshot-qt  <p>
+  blender   <p>
+  goldendict   <p>
+  goldendict-wordnet   <p>
+  gparted   <p>
+  persepolis   <p>
+  tor   <p>
+  gimp   <p>
+  steam   <p>  
+  chromium-browser   <p>
+  resolvconf   <p>
+  playonlinux   <p>
+  privoxy   <p>
+  openshot-qt   <p>
+  mpv    <p>
+  clamav   <p>
+  clamtk   <p>
+  persepolis   <p>
+  brasero   <p>
+  handbrake   <p>
+  kazam   <p>
+  kolourpaint4   <p>  <p>
+  fslint   <p>
+  xarchiver   <p>
+  xournal   <p>
+  thunar   <p>
+  screenfetch   <p>
+  xarchiver   <p>
+  winff   <p>
+  libavcodec-extra   <p>
+  unzip   <p>
+  gnome-tweak-tool   <p>
+  geany   <p>
+  geary  <p>
+  Telegram  <p>
     &nbsp;
  <b> Config: </b>
-  mpv
-  Telegram
-  tor
-  icon
-  gnome extensions
+  mpv  <p>
+  Telegram  <p>
+  tor  <p>
+  icon  <p>
+  gnome extensions  <p>
 
 <b>How To Install YoordConfig</b>
 
