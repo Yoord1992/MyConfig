@@ -60,7 +60,7 @@ Auto Install Apps, Configs, ... On Your Distro.
   icon   -
   gnome extensions  
 <p>
-  
+ <p>  
 <b>How To Install YoordConfig</b>
 
 1 - git clone https://github.com/Yoord1992/YoordConfig
