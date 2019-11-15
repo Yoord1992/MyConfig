@@ -6,6 +6,7 @@
   
 # MyConfig V1
  [![GitHub license](https://img.shields.io/github/license/persepolisdm/persepolis.svg)](https://github.com/persepolisdm/persepolis/blob/master/LICENSE)  [![Twitter Follow](https://img.shields.io/twitter/follow/persepolisdm.svg?style=social&label=Follow)](https://twitter.com/yoord1992)
+ <p>
 Auto Install Apps, Configs, ... On Your Debian Base Distro.
 <p>
 
