@@ -3,7 +3,7 @@
 <center/>
 
 # YoordConfig V1 
- [![GitHub license](https://img.shields.io/github/license/persepolisdm/persepolis.svg)](https://github.com/persepolisdm/persepolis/blob/master/LICENSE)[![Twitter Follow](https://img.shields.io/twitter/follow/persepolisdm.svg?style=social&label=Follow)](https://twitter.com/Yoord1992)
+ [![GitHub license](https://img.shields.io/github/license/persepolisdm/persepolis.svg)](https://github.com/persepolisdm/persepolis/blob/master/LICENSE)[![Total downloads](https://img.shields.io/github/downloads/persepolisdm/persepolis/total.svg)][![Twitter Follow](https://img.shields.io/twitter/follow/persepolisdm.svg?style=social&label=Follow)](https://twitter.com/Yoord1992)
 
 Auto Install Apps, Configs, ... On Your Debian Base Distro.
 <p>
