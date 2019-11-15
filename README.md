@@ -12,45 +12,45 @@ Auto Install Apps, Configs, ... On Your Distro.
   -
   peek   -
   clipgrab   -
-  winff  <p>
+  winff   -
   libavcodec-extra -
   xarchiver -
-  boot-repair  <p>
-  openshot-qt  <p>
-  blender   <p>
-  goldendict   <p>
-  goldendict-wordnet   <p>
-  gparted   <p>
-  persepolis   <p>
-  tor   <p>
-  gimp   <p>
-  steam   <p>  
-  chromium-browser   <p>
-  resolvconf   <p>
-  playonlinux   <p>
-  privoxy   <p>
-  openshot-qt   <p>
-  mpv    <p>
-  clamav   <p>
-  clamtk   <p>
-  persepolis   <p>
-  brasero   <p>
-  handbrake   <p>
-  kazam   <p>
-  kolourpaint4   <p>  <p>
-  fslint   <p>
-  xarchiver   <p>
-  xournal   <p>
-  thunar   <p>
-  screenfetch   <p>
-  xarchiver   <p>
-  winff   <p>
-  libavcodec-extra   <p>
-  unzip   <p>
-  gnome-tweak-tool   <p>
-  geany   <p>
-  geary  <p>
-  Telegram  <p>
+  boot-repair   -
+  openshot-qt  -
+  blender   -
+  goldendict   -
+  goldendict-wordnet    -
+  gparted    -
+  persepolis   -
+  tor    -
+  gimp   -
+  steam    -  
+  chromium-browser   -
+  resolvconf    -
+  playonlinux   -
+  privoxy -
+  openshot-qt   -
+  mpv    -
+  clamav    -
+  clamtk    -
+  persepolis    -
+  brasero   -
+  handbrake   -
+  kazam   -
+  kolourpaint4   -
+  fslint    -
+  xarchiver    -
+  xournal    -
+  thunar    -
+  screenfetch   -
+  xarchiver   -
+  winff   -
+  libavcodec-extra    -
+  unzip    -
+  gnome-tweak-tool    -
+  geany   -
+  geary  -
+  Telegram  -
     &nbsp;
  <b> Config: </b>
   mpv  <p>
