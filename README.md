@@ -5,7 +5,9 @@
 # YoordConfig V1
 Auto Install Apps, Configs, ... On Your Distro.
 <p>
- 
+ <p>
+  <p>
+   
 <b>How To Install YoordConfig</b>
 
 1 - git clone https://github.com/Yoord1992/YoordConfig
