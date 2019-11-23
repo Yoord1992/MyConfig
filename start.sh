@@ -1,111 +1,78 @@
 #!/bin/bash
 
-clear
-echo " *******      MyConfig V1      *******"
+if [ "$EUID" -eq 0 ];then
+    echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
+    echo -e "$(tput setaf 7)press ENTER to continue or CTRL+C to exit."
+    read 
+fi
 
-sleep 3
+clear
+# Print '$title' at the center of the terminal
+COLUMNS=$(tput cols) 
+title="*******      MyConfig V1      *******"
+printf "%*s\n" $(((${#title}+$COLUMNS)/2)) "$title"
 
-clear
-sudo apt autoremove -y  &>/dev/null
-clear
+sleep 1
 echo -e "Installing Apps ..."
 sudo add-apt-repository ppa:clipgrab-team/ppa -y   &>/dev/null
 sudo add-apt-repository ppa:yannubuntu/boot-repair -y   &>/dev/null
 sudo add-apt-repository ppa:peek-developers/stable -y     &>/dev/null
 sudo add-apt-repository ppa:openshot.developers/ppa -y   &>/dev/null
 sudo add-apt-repository ppa:persepolis/ppa -y   &>/dev/null
-sudo apt apgrade -y  &>/dev/null
-sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot-repair openshot-qt blender goldendict goldendict-wordnet gparted persepolis tor gimp steam chromium-browser resolvconf playonlinux privoxy openshot-qt mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint xarchiver xournal thunar screenfetch xarchiver winff libavcodec-extra unzip  gnome-tweak-tool geany geary -y  &>/dev/null
-clear
+sudo apt update -y  
+sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot-repair openshot-qt blender goldendict goldendict-wordnet gparted persepolis tor gimp steam chromium-browser resolvconf playonlinux privoxy openshot-qt mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint xarchiver xournal thunar screenfetch xarchiver winff libavcodec-extra unzip  gnome-tweak-tool geany geary -y 
 
 echo -e "Installing Telegram Config ..."
-sleep 2
-cd telegram/tpf
-cp -r .fonts .fonts.conf ~/Desktop  &>/dev/null
-cd ..
-cd ..
+sleep 1
+cp -r telegram/tpf/.fonts telegram/tpf/.fonts.conf ~/Desktop  
 
-clear
 echo -e "Installing Telegram ..."
-sleep 2
-cd telegram 
-unzip telegram.zip   &>/dev/null
-cd Telegram
-chmod +x ./Telegram    &>/dev/null
-
-cd ..
-cd ..
-clear
+sleep 1
+unzip telegram/telegram.zip -d telegram/ 
+chmod +x telegram/Telegram
 
 echo -e "Installing Mpv Config ..."
-sleep 2
-cd mpv
-cp .mpv ~/Desktop &>/dev/null
-cd confing
-sudo cp -r * /etc/mpv  &>/dev/null
-cd .. 
+sleep 1
+cp mpv/.mpv ~/Desktop
+sudo cp -r mpv/confing/* /etc/mpv 
 
-clear
 echo -e "Installing Tor Config ..."
-sleep 2
-cd tor
-sudo cp -r torrc /etc/tor &>/dev/null 
-cd ..
-clear
+sleep 1
+sudo cp tor/torrc /etc/tor  
 
 echo -e " Resolving DNS Issues ..."
-sleep 2
-cd DNS
+sleep 1
 sudo mv /etc/resolvconf/resolv.conf.d/head /etc/resolvconf/resolv.conf.d/head.1  &>/dev/null
-sudo cp -r head /etc/resolvconf/resolv.conf.d/   &>/dev/null
-sudo resolvconf -u   &>/dev/null
-cd ..
-clear
+sudo cp -r DNS/head /etc/resolvconf/resolv.conf.d/   
+sudo resolvconf -u  
 
 echo -e " Installing Newaita Icon ..."
-sleep 3
-cd icon
-unzip Newaita.zip  &>/dev/null
-sudo cp -r Newaita /usr/share/icons  &>/dev/null
-cd ..
-clear
+sleep 1
+unzip icon/Newaita.zip  -d icon/
+sudo cp -r icon/Newaita /usr/share/icons 
 
 echo -e " Installing AnyDesk ..."
-sleep 3
-cd AnyDesk
-sudo dpkg -i --force-all anydesk.deb  &>/dev/null
-cd ..
-clear
+sleep 1
+sudo dpkg -i --force-all AnyDesk/anydesk.deb  
 
 echo -e " Installing ocenaudio ..."
-sleep 3
-cd ocenaudio
-sudo dpkg -i --force-all ocenaudio.deb  &>/dev/null
-cd ..
-clear
+sleep 1
+sudo dpkg -i --force-all ocenaudio/ocenaudio.deb
 
 echo -e " Installing Gnome Extensions ..."
-sleep 3
-cd extensions
-unzip extensions.zip  &>/dev/null
-rm extensions.zip  &>/dev/null
-sudo cp -r * ~/.local/share/gnome-shell/extensions  &>/dev/null
-cd ..
-clear
+sleep 1
+unzip extensions/extensions.zip  -d extentions/
+rm -rf extensions/extensions.zip 
+sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions  
 
 echo -e " Copying Music, Picture and Video ..."
-sleep 3
-cd personal
-cp music.mp3 ~/Music &>/dev/null
-cp video.mp4 ~/Videos  &>/dev/null
-cp pic.jpeg ~/Pictures   &>/dev/null
-cd ..
-clear
+sleep 1
+cp personal/music.mp3 ~/Music 
+cp personal/video.mp4 ~/Videos  
+cp personal/pic.jpeg ~/Pictures   
 
-
-cd telegram
-cd Telegram
-./Telegram  
+# Executing Telegram
+telegram/Telegram
 sleep 1
 echo -e "done!"
 echo -e "@Yoord"
