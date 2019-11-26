@@ -20,7 +20,7 @@ sudo add-apt-repository ppa:peek-developers/stable -y     &>/dev/null
 sudo add-apt-repository ppa:openshot.developers/ppa -y   &>/dev/null
 sudo add-apt-repository ppa:persepolis/ppa -y   &>/dev/null
 sudo apt update -y  
-sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot-repair openshot-qt blender goldendict goldendict-wordnet gparted persepolis tor gimp steam chromium-browser resolvconf playonlinux privoxy openshot-qt mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint xarchiver xournal thunar screenfetch xarchiver winff libavcodec-extra unzip  gnome-tweak-tool geany geary -y 
+sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot-repair openshot-qt blender goldendict goldendict-wordnet gparted persepolis tor gimp steam chromium-browser resolvconf playonlinux privoxy openshot-qt mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint xournal thunar screenfetch unzip  gnome-tweak-tool geany geary -y 
 
 echo -e "Installing Telegram Config ..."
 sleep 1
