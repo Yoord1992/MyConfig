@@ -18,9 +18,9 @@ fi
 
 sudo pacman --noconfirm -S openshot peek clipgrab ffmpeg xarchiver blender goldendict gparted\
                tor gimp steam chromium privoxy playonlinux privoxy mpv clamav brasero\
-               handbrake kolourpaint thunar screenfetch unzip gnome-tweak geany geary 
+               handbrake kolourpaint thunar screenfetch unzip gnome-tweak geany geary telegram-desktop
                
-yay --noconfirm  -S persepolis gpaint winff kazam fslint xournal
+yay --noconfirm  -S persepolis gpaint winff kazam fslint xournal oceanaudio anydesk
 }
 
 apt(){
@@ -35,6 +35,9 @@ sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot
                  tor gimp steam chromium-browser resolvconf playonlinux privoxy \
                  mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint\
                  xournal thunar screenfetch unzip gnome-tweak-tool geany geary -y 
+                 
+sudo dpkg -i --force-all AnyDesk/anydesk.deb  
+sudo dpkg -i --force-all ocenaudio/ocenaudio.deb
 }
 
 clear
@@ -105,13 +108,6 @@ sleep 1
 unzip icon/Newaita.zip  -d icon/
 sudo cp -r icon/Newaita /usr/share/icons 
 
-echo -e " Installing AnyDesk ..."
-sleep 1
-sudo dpkg -i --force-all AnyDesk/anydesk.deb  
-
-echo -e " Installing ocenaudio ..."
-sleep 1
-sudo dpkg -i --force-all ocenaudio/ocenaudio.deb
 
 echo -e " Installing Gnome Extensions ..."
 sleep 1
