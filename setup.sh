@@ -38,6 +38,9 @@ sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot
                  
 sudo dpkg -i --force-all AnyDesk/anydesk.deb  
 sudo dpkg -i --force-all ocenaudio/ocenaudio.deb
+unzip telegram/telegram.zip -d telegram/ 
+chmod +x telegram/Telegram
+telegram/Telegram
 }
 
 clear
@@ -83,11 +86,6 @@ echo -e "Installing Telegram Config ..."
 sleep 1
 cp -r telegram/tpf/.fonts telegram/tpf/.fonts.conf ~/Desktop  
 
-echo -e "Installing Telegram ..."
-sleep 1
-unzip telegram/telegram.zip -d telegram/ 
-chmod +x telegram/Telegram
-
 echo -e "Installing Mpv Config ..."
 sleep 1
 cp mpv/.mpv ~/Desktop
@@ -121,8 +119,6 @@ cp personal/music.mp3 ~/Music
 cp personal/video.mp4 ~/Videos  
 cp personal/pic.jpeg ~/Pictures   
 
-# Executing Telegram
-telegram/Telegram
 sleep 1
 echo -e "done!"
 echo -e "@Yoord"
