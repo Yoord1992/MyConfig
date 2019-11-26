@@ -17,9 +17,9 @@ Auto Install Apps, Configs, ... On Your Debian Base Distro.
 
 2 - cd MyConfig
 
-3 - chmod +x ./start.sh
+3 - chmod +x ./setup.sh
 
-4 - ./start.sh  
+4 - ./setup.sh 
 &nbsp;
   <p>
     <p>
