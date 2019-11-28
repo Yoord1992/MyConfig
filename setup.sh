@@ -12,7 +12,7 @@ if [ ! -d "/usr/share/gnome" ];then
 			echo -e " Installing Gnome Extensions ..."
             sleep 1
             unzip extensions/extensions.zip  -d extentions/ &>/dev/null
-            #rm -rf extensions/extensions.zip 
+            rm -rf extensions/extensions.zip 
             sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
 
     break
@@ -22,7 +22,7 @@ if [ ! -d "/usr/share/gnome" ];then
         	echo -e " Installing Gnome Extensions ..."
             sleep 1
             unzip extensions/extensions.zip  -d extentions/ &>/dev/null
-            #rm -rf extensions/extensions.zip 
+            rm -rf extensions/extensions.zip 
             sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
    	break
 
