@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ ! -d "/usr/share/gnome" ];then
+     echo "$(tput setaf 2)ERROR: You are not using GNOME desktop environment."
+     exit -1
+fi
+
 if [ "$EUID" -eq 0 ];then
     echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
     echo -e "$(tput setaf 7)press ENTER to continue or CTRL+C to exit."
@@ -139,12 +144,3 @@ cp personal/pic.jpeg ~/Pictures
 sleep 1
 echo -e "done!"
 echo -e "@Yoord"
-
-}
-
-if [ -d "/usr/share/gnome" ] 
-then
-   gnome
-else
-    echo "Error: you are not using gnome."
-fi
