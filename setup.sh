@@ -1,9 +1,49 @@
-#!/bin/bash
+
+    #!/bin/bash
 
 if [ ! -d "/usr/share/gnome" ];then
-     echo "$(tput setaf 2)ERROR: You are not using GNOME desktop environment."
+	 echo "ERROR: You are not using GNOME desktop environment."
+
+  	 read -p "Do You Want To install Apps & Simple Configs (y/n): " answer
+
+	case "$answer" in
+	"y")
+
+			echo -e " Installing Gnome Extensions ..."
+            sleep 1
+            unzip extensions/extensions.zip  -d extentions/ &>/dev/null
+            #rm -rf extensions/extensions.zip 
+            sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
+
+    break
+;;
+	"Y")
+    
+        	echo -e " Installing Gnome Extensions ..."
+            sleep 1
+            unzip extensions/extensions.zip  -d extentions/ &>/dev/null
+            #rm -rf extensions/extensions.zip 
+            sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
+   	break
+
+;;
+   
+
+*)
+   
      exit -1
-fi
+
+esac
+		
+     
+		else
+			
+        break
+
+ fi
+
+
+
 
 if [ "$EUID" -eq 0 ];then
     echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
@@ -39,7 +79,8 @@ sudo apt install gnome-paint peek clipgrab winff libavcodec-extra xarchiver boot
                  openshot-qt blender goldendict goldendict-wordnet gparted persepolis\
                  tor gimp steam chromium-browser resolvconf playonlinux privoxy \
                  mpv  clamav clamtk persepolis brasero handbrake kazam kolourpaint4 fslint\
-                 xournal thunar screenfetch unzip gnome-tweak-tool geany geary -y 
+                 xournal thunar screenfetch unzip gnome-tweak-tool geany geary conky aria2\
+                 git jcal virtualbox youtube-dl openssh-server torsocks obfs4proxy -y 
                  
 sudo dpkg -i --force-all AnyDesk/anydesk.deb  
 sudo dpkg -i --force-all ocenaudio/ocenaudio.deb
@@ -127,13 +168,6 @@ echo -e " Installing Newaita Icon ..."
 sleep 1
 unzip icon/Newaita.zip  -d icon/
 sudo cp -r icon/Newaita /usr/share/icons 
-
-
-echo -e " Installing Gnome Extensions ..."
-sleep 1
-unzip extensions/extensions.zip  -d extentions/
-rm -rf extensions/extensions.zip 
-sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions  
 
 echo -e " Copying Music, Picture and Video ..."
 sleep 1
