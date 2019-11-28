@@ -54,7 +54,7 @@ dnf(){
     sudo dnf install -y openshot peek xarchiver blender goldendict gparted tor gimp\
                         steam chromium privoxy playonlinux mpv clamav brasero handbrake\
                         thunar screenfetch unzip gnome-tweaks geany geary telegram-desktop\
-                        kolourpaint persepolis gpaint kazam fslint xournal 
+                        kolourpaint persepolis gpaint kazam fslint xournal ffmpeg 
 }
 
 clear
