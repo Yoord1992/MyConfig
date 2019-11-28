@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gnome(){
+
 if [ "$EUID" -eq 0 ];then
     echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
     echo -e "$(tput setaf 7)press ENTER to continue or CTRL+C to exit."
@@ -46,7 +48,7 @@ telegram/Telegram
 clear
 # Print '$title' at the center of the terminal
 COLUMNS=$(tput cols) 
-title="*******      MyConfig V1      *******"
+title="*******      MyConfig V1.1 Beta      *******"
 printf "%*s\n" $(((${#title}+$COLUMNS)/2)) "$title"
 
 # distribution detection 
@@ -122,3 +124,12 @@ cp personal/pic.jpeg ~/Pictures
 sleep 1
 echo -e "done!"
 echo -e "@Yoord"
+
+}
+
+if [ -d "/usr/share/gnome" ] 
+then
+   gnome
+else
+    echo "Error: you are not using gnome."
+fi
