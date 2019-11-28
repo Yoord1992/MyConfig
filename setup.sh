@@ -1,5 +1,4 @@
-
-    #!/bin/bash
+#!/bin/bash
 clear
  gnome () {
 	        echo -e " Installing Gnome Extensions ..."
@@ -15,30 +14,19 @@ if [ ! -d "/usr/share/gnome" ];then
 
   	        read -p "Do You Want To install Apps & Simple Configs (y/n): " answer
 
-	case "$answer" in
-	"y")
-		 
-    break
-;;
-	"Y")   
-        	
-   	break
+	
+if [ $answer != "y" -o $answer != "Y" ];then 
+    exit -1
+   else
+   break 
+fi
 
-;;
-
-*)
-     exit -1
-
-esac
-		
 		else
 			
-        gnome
-
+		gnome	
+        
         break
  fi
-
-
 
 
 if [ "$EUID" -eq 0 ];then
