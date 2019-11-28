@@ -1,45 +1,41 @@
 
     #!/bin/bash
+clear
+ gnome () {
+	        echo -e " Installing Gnome Extensions ..."
+            sleep 1
+            unzip extensions/extensions.zip  -d extentions/ &>/dev/null
+            rm -rf extensions/extensions.zip 
+            sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
+	}
 
 if [ ! -d "/usr/share/gnome" ];then
-	 echo "ERROR: You are not using GNOME desktop environment."
 
-  	 read -p "Do You Want To install Apps & Simple Configs (y/n): " answer
+	        echo "ERROR: You are not using GNOME desktop environment."
+
+  	        read -p "Do You Want To install Apps & Simple Configs (y/n): " answer
 
 	case "$answer" in
 	"y")
-
-			echo -e " Installing Gnome Extensions ..."
-            sleep 1
-            unzip extensions/extensions.zip  -d extentions/ &>/dev/null
-            rm -rf extensions/extensions.zip 
-            sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
-
+		 
     break
 ;;
-	"Y")
-    
-        	echo -e " Installing Gnome Extensions ..."
-            sleep 1
-            unzip extensions/extensions.zip  -d extentions/ &>/dev/null
-            rm -rf extensions/extensions.zip 
-            sudo cp -r extensions/* ~/.local/share/gnome-shell/extensions 
+	"Y")   
+        	
    	break
 
 ;;
-   
 
 *)
-   
      exit -1
 
 esac
 		
-     
 		else
 			
-        break
+        gnome
 
+        break
  fi
 
 
