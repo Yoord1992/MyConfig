@@ -1,7 +1,5 @@
 #!/bin/bash
 
-gnome(){
-
 if [ "$EUID" -eq 0 ];then
     echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
     echo -e "$(tput setaf 7)press ENTER to continue or CTRL+C to exit."
@@ -20,7 +18,7 @@ fi
 
 sudo pacman --noconfirm -S openshot peek clipgrab ffmpeg xarchiver blender goldendict gparted\
                tor gimp steam chromium privoxy playonlinux privoxy mpv clamav brasero\
-               handbrake kolourpaint thunar screenfetch unzip gnome-tweak geany geary telegram-desktop
+               handbrake kolourpaint thunar screenfetch unzip gnome-tweaks geany geary telegram-desktop
                
 yay --noconfirm  -S persepolis gpaint winff kazam fslint xournal oceanaudio anydesk
 }
@@ -45,10 +43,24 @@ chmod +x telegram/Telegram
 telegram/Telegram
 }
 
+dnf(){
+    # Enabling the Free repository
+  sudo dnf install \ 
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+    # Enabling the Nonfree repository
+  sudo dnf install \
+  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+    
+    sudo dnf install -y openshot peek xarchiver blender goldendict gparted tor gimp\
+                        steam chromium privoxy playonlinux mpv clamav brasero handbrake\
+                        thunar screenfetch unzip gnome-tweaks geany geary telegram-desktop\
+                        kolourpaint persepolis gpaint kazam fslint xournal 
+}
+
 clear
 # Print '$title' at the center of the terminal
 COLUMNS=$(tput cols) 
-title="*******      MyConfig V1.1 Beta      *******"
+title="*******      MyConfig    V1.1 Beta      *******"
 printf "%*s\n" $(((${#title}+$COLUMNS)/2)) "$title"
 
 # distribution detection 
@@ -76,6 +88,9 @@ case $distro in
             ;;
         apt)
             apt
+            ;;
+        dnf)
+            dnf
             ;;
         *)
             echo "Unsupported distribution."
