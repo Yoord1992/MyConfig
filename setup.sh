@@ -71,7 +71,7 @@ main(){
 	if [ "$EUID" -eq 0 ];then
 		echo -e "$(tput setaf 1)WARNING: You are running script as root.Some files will move in your 'root' home directory."
     zenity --question --no-wrap --text "WARNING: You are running script as root.\nSome files will move in your 'root' home directory,do you want to continue?"
-    if [ "$?" == 1 ];
+    if [ "$?" == 1 ];then
       exit -1
     fi
 	fi
